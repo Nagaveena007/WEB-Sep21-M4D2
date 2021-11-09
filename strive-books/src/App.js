@@ -3,14 +3,14 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from "./Components/Navbar";
 import FooterPart from "./Components/Footer";
-import { Jumbotron } from "react-bootstrap";
+import JumbotronElement from "./Components/Jubotron";
 import TapestryThing from "./Components/Tapestry";
 
 function App() {
   return (
     <div className="App">
       <Navigation brand="Strive-Books" />
-      <Jumbotron />
+      <JumbotronElement />
       <TapestryThing />
       <FooterPart />
     </div>
